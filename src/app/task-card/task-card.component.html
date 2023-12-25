@@ -1,0 +1,13 @@
+<div
+  class="block p-3 md:mb-4 w-full bg-white border border-gray-50 rounded-md shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+  [id]="task?._id"
+>
+  <span
+    class="mb-2 text-l font-bold tracking-tight text-gray-900 dark:text-white"
+  >
+    {{ task?.title }}
+  </span>
+  <p class="font-normal text-sm text-gray-700 dark:text-gray-400">
+    {{ task?.description }}
+  </p>
+</div>
