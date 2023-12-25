@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
 import { TaskCardComponent } from '../task-card/task-card.component';
-import { Task } from '../task-card/task.interface';
+import { Task } from '../interfaces/task.interface';
 
 @Component({
   selector: 'app-list-container',

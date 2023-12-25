@@ -4,7 +4,7 @@ import { RouterOutlet } from '@angular/router';
 import { initFlowbite } from 'flowbite';
 import { ListContainerComponent } from './list-container/list-container.component';
 import { TaskInputComponent } from './task-input/task-input.component';
-import { Task } from './task-card/task.interface';
+import { Task } from './interfaces/task.interface';
 import { TodoService } from './services/todo/todo.service';
 import { HttpClientModule } from '@angular/common/http';
 

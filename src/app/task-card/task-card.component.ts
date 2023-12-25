@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { TodoService } from '../services/todo/todo.service';
-import { Task } from './task.interface';
+import { Task } from '../interfaces/task.interface';
 import { CommonModule } from '@angular/common';
 
 @Component({
